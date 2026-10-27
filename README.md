@@ -47,6 +47,7 @@ when training the prediction models. Regarding PSR, see references [\[3\]](#Pape
 - Statistics and Machine Learning Toobox&trade;
 - [MATLAB Support Package for Quantum Computing](https://www.mathworks.com/matlabcentral/fileexchange/125425-matlab-support-package-for-quantum-computing)
 
+If you have already used the support package, we recommend to update because simulation for parameterized quantum circuits was improved in July 2026.
 
 ### Preparation to run this example
 #### a. Environment variables to access Amazon S3
