@@ -1,7 +1,7 @@
 # Quantum Neural Network for Time Series  
 
 This example introduces how to implement a parameterized quantum circuit, which is one of quantum neural network, as time series model and train it on 
-a classical computer. In addition, it introduces how to run the trained model on a quantum simulator or a QPU provided by Amazon Braket.
+a classical computer. In addition, it introduces how to run the trained model on a quantum simulator or a QPU provided by Amazon&reg; Web Services (AWS&reg;).
 
 <div align="center">
     <img src="images/PQC_NumInput9_NumLayers6.png" alt="PQC.png">
@@ -19,11 +19,11 @@ time series signals. This example addresses not only to forecast stock prices bu
 
 This example consists of the following 3 demos; 
 
-- AppleStock folder offers a MATLAB script (script_train_logreturn_qnn_model_on_classic_computer.mlx) to reproduce what reference 
+- AppleStock folder offers a MATLAB&reg; script (script_train_logreturn_qnn_model_on_classic_computer.mlx) to reproduce what reference 
 [\[1\]](#PaperTimeSerires) descibes using historical stock prices of Apple.       
 
 - BatterySoC\Create_and_TrainModel folder offers a MATLAB script (script_train_dsoc_qnn_model_on_classic_computer.mlx), which imports data generated 
-by an example of Simscape Battery, creates a model to estimate state of charge (strictly speaking, its time-difference) and train it on classical computer. 
+by an example of Simscape Battery&trade;, creates a model to estimate state of charge (strictly speaking, its time-difference) and train it on classical computer. 
 For more information about this data source, see reference [\[2\]](#UrlMathWorksSoC).
 
 - BatterySoC\Infer_on_AmazonBraket folder offers a MATLAB script (script_infer_dsoc_on_aws_braket.mlx) to infer state of charge (its time-difference actually) 
@@ -42,15 +42,15 @@ when training the prediction models. Regarding PSR, see references [\[3\]](#Pape
 ### Products
 
 - MATLAB R2026a
-- Deep Learning Toolbox
-- Parallel Computing Toolbox 
-- Statistics and Machine Learning Toobox
+- Deep Learning Toolbox&trade; 
+- Parallel Computing Toolbox&trade;  
+- Statistics and Machine Learning Toobox&trade;
 - [MATLAB Support Package for Quantum Computing](https://www.mathworks.com/matlabcentral/fileexchange/125425-matlab-support-package-for-quantum-computing)
 
 
 ### Preparation to run this example
 #### a. Environment variables to access Amazon S3
-When you use Amazon Braket, it requires to set environment variables to access Amazon S3 on MATLAB 
+When you use Amazon Braket, it requires to set environment variables to access Amazon S3&trade; on MATLAB 
 because the output returned from quantum device is exported to your bucket in Amazon S3 as a file of JSON format. 
 Concretely, the following environment variables are required:
 
@@ -88,5 +88,4 @@ addpath(pwd)
 <a id="PaperGeneralPSR">4</a>. Wierichs, David, Josh Izaac, Cody Wang, and Cedric Yen-Yu Lin. "[General Parameter-Shift Rules for Quantum Gradients](https://quantum-journal.org/papers/q-2022-03-30-677/)" (2022) 
 
 <a id="UrlPennylanePSR">5</a>. PENNYLANE, "[Parameter-shift Rule](https://pennylane.ai/qml/glossary/parameter_shift)" (Modified February 25, 2026) 
-
 
